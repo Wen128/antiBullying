@@ -1,7 +1,7 @@
 const bubbles = document.querySelectorAll('.bubble');
 let bubblesBurst = 0;
 
-var pop = new Audio("audio/pop.mp3");
+var pop = document.querySelector('.popAudio');
 
 bubbles.forEach(bubble => {
     bubble.addEventListener('click', () => {
